@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create Form</title>
+    <style>
+    .container {
+      display: flex;
+     margin-top: 100px;
+    
+    }
+    .container>div {
+     
+     width: 50%;
+     margin-right: 50px;
+     margin-left: 10px;
+     justify-content: center;
+     align-items: center;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     
+    }
+    form{
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      
+      
+    }
+    form>input {
+      height: 40px;
+      width: 50%;
+     margin:10px auto;
+     font-weight: 600;
+     font-size: larger;
+    }
+   
+    h1{
+      text-align: center;
+    }
+   
+  </style>
+</head>
+<body>
+<div class="container">
+  <div>
+    <h1>Signup Form</h1>
+    <!-- Create the Signup form here  -->
+    <form>
+      <input placeholder="Name"type="text"/>
+      <input placeholder="Email Address"type="email"/>
+      <input placeholder="Country"type="text"/>
+      <input placeholder="Phone"type="number"/>
+      <input placeholder="Password"type="Password"/>
+      <input type="submit" value="Create Account">
+    </form>
+</div>
+<div>
+  <h1>Signin Form</h1>
+  <!-- Create the Signin Form Here  -->
+  <form>
+    <input placeholder="Name" type="text"/>
+    <input placeholder="Email Address"type="email"/>
+    <input placeholder="Password"type="Password"/>
+    <input type="submit" value="Signin">
+  </form>
+</div>
+</div>
+</body>
+</html>
